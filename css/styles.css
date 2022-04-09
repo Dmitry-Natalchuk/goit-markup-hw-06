@@ -663,8 +663,6 @@ fill:var(--accent-color)
   text-align: center;
   letter-spacing: 0.03em;
 }
-.form-modal{
-}
 .label-modal{
   display: flex;
   flex-direction: column;
@@ -697,10 +695,9 @@ fill:var(--accent-color)
 }
 .svg-modal{
   position: absolute;
-    top:0;
+    top:15px;
     left: 0;
-    margin-top: 15px;
-    margin-left: 12px;
+    transform: translateX(12px);
   }
   .textarea-modal:focus,
   .textarea-modal:hover,
