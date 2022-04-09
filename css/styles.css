@@ -753,15 +753,13 @@ fill:var(--accent-color)
   .icon-chekbox:checked + .contract-chek::before{
     background-color: var(--accent-color);
     border-color: var(--accent-color);
-    background-image: url(/images/Vector.svg);
+    background-image: url(../images/Vector.svg);
     background-position: center;
     background-size: contain;
   }
   .chekbox-text{
     color: var(--accent-color);
     text-decoration-line: underline;
-  }
-  .input-chekbox{
   }
   .button-modal{
     min-width: 200px;
